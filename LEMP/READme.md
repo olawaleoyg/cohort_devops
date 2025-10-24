@@ -18,4 +18,5 @@ Assuming you have successfully connected to your EC2 ubuntu virtual server and c
 -   Then access it with the public IP of the EC2 server - `http://<public-IP-address>:80`
 
 The nginx default web page should display
-![Screenshot of LEMP setup](Images/nginx.png)
+
+![Screenshot of LEMP setup](LEMP/Images/nginx.png)
