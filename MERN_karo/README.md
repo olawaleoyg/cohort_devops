@@ -1,16 +1,16 @@
 
-**MERN STACK IMPLEMENTATION**
+# MERN STACK IMPLEMENTATION
 
-**SIMPLE TO-DO APPLICATION ON MERN WEB STACK**
+## IMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-# SIMPLE TO-DO APPLICATION ON MERN WEB STACK
+## SIMPLE TO-DO APPLICATION ON MERN WEB STACK
 
-Task of the project to implement a web solution based MERN stack in AWS cloud.
+*Task of the project to implement a web solution based MERN stack in AWS cloud.*
 
 - Signed into my AWS account and launched an EC2 instance of t2.micro family with Ubuntu Server 20.04 LTS (HVM)
 - Connected to my EC2 instance through MobaXterm SSH client.
 
-Backend configuration
+*Backend configuration*
 
 - update ubuntu by running command `sudo apt update`
 - upgrade ubuntu by running command `sudo apt upgrade`
@@ -19,7 +19,7 @@ Backend configuration
 - Verify node installation with command `node -v` and `npm -v`
 you should get the verions back like `v12.22.7` and `6.14.15`
 
-Application Code Setup
+*Application Code Setup*
 
 - Create a new directory for your To-Do project  `mkdir Todo`
 - Confirm the Todo directory with ls command and change current directory to the new created on `cd Todo`
@@ -28,47 +28,41 @@ Application Code Setup
 ```
 This utility will walk you through creating a package.json file.
 It only covers the most common items, and tries to guess sensible defaults.
-npm help.
-and
-init for definitive documentation on these fields
-exactly what they do.
-Use
-npm
-it
-install -pkg>
-afterwards to install
-save
-as
-a dependency in the package. json file.
-package and
-Press
-*Cat any
-time to quit.
+see `npm help init` for definitive documentation on these fields and exactly what they do.
+
+Use `npm install <pkg>` afterwards to installa package and save it as a dependency in the package. json file.
+
+Press ^C at any time to quit.
 package name: (todo)
-version: (1.0.0) description: A To-Do Application
-entry point: (index.js) test command:
-gut repository: keywords: todo application author: Taiwo Lawal
+version: (1.0.0) 
+description: A To-Do Application
+entry point: (index.js) 
+test command:
+git repository: 
+keywords: todo app
+author: Karo
 license: (ISC)
 About to write to /home/ubuntu/Todo/package.json:
-"name": "todo",
-"version":
-"1.0.0",
-"description": "A To-Do Application",
-"main":
-"index. js",
-"scripts": {
-"test"; "echo \"Error: no test specified\" && exit 1"
-"keywords": [
-"todo",
-"application"
-],
-"author": "Taiwo Lawal",
-"license": "ISC"
+
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Create a Todo-app",
+  "main": "index. js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }  
+  "keywords": [
+  "todo",
+  "app"
+  ],
+  "author": "Karo",
+  "license": "ISC"
 }
-Is this OK? (yes)
+Is this OK? (yes) yes
 ```
 
-ExpressJs Installation
+*ExpressJs Installation*
 
 - Install with command `npm install express` and create a file with command `index.js`.
 - Install dotenv using command `npm install dotenv`.
@@ -108,7 +102,7 @@ app.listen(port, () => {
 - Open browser and try accessing the server's public IP http://<public_ipaddress>:5000/
 - You should see the `Welcome to Express` in the browser
 
-Routes Creation
+*Routes Creation*
 
 - Create folder in the To-do app with command `mkdir routes`.
 - Change directory to routes folder with command `cd routes` and create a file api.js with command `touch api.js`.
@@ -135,7 +129,7 @@ router.delete('/todos/:id', (req, res, next) => {
 module.exports = router;
 
 ```
-Models
+*Models*
 
 - The app is going to make use of Mongodb which is a NOSQL database, thus we create a model.
 - The model will be used to define database schema.
@@ -196,7 +190,7 @@ router.delete('/todos/:id', (req, res, next) => {
 
 module.exports = router;
 ```
-MongoDB Database
+*MongoDB Database*
 
 - A database is needed to store all our data.
 - MongoDB database provided by mLab will be used for storing data.
