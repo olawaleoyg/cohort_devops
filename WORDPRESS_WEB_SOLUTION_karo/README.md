@@ -139,3 +139,5 @@ Then log in at:
 | `mysqld_safe: command not found`            | Different binary path                | Use `/usr/sbin/mysqld`                   |
 | `Unable to lock ./ibdata1`                  | MySQL already running                | Stop existing process before restarting  |
 | WordPress loads only via `curl localhost`   | Apache/Firewall not open             | Allow HTTP (80) in security group        |
+
+![Book List Screenshot](/cohort_devops/WORDPRESS_WEB_SOLUTION_karo/Images/project%207-1.png)
