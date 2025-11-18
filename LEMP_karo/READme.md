@@ -19,7 +19,7 @@ Assuming you have successfully connected to your EC2 ubuntu virtual server and c
 
 The nginx default web page should display
 
-![Screenshot of LEMP setup](LEMP/Images/nginx.png)
+![Screenshot of LEMP setup](./LEMP_karo/Images/nginx.png)
 
 ##  Install mysql
 -   Install mysql-server - `sudo apt install mysql-server -y`
