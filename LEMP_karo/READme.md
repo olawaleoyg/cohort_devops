@@ -235,7 +235,7 @@ http://`server_domain_or_IP`/info.php
 
 A web page with detailed information about your server is displayed:
 
-![Screenshot of LEMP setup](LEMP/Images/PHP.png)
+![Screenshot of LEMP setup](./Images/PHP.png)
 
 After checking the relevant information about your PHP server through that page, it’s best to remove the file created as it contains sensitive information about the PHP environment and Ubuntu server.
 `sudo rm /var/www/our_domain/info.php`
@@ -398,7 +398,7 @@ http://<Public_domain_or_IP>/todo_list.php
 
 You should see a page like this, showing the content you’ve inserted in your test table:
 
-[PHP Served page for a Todo-list](/cohort_devops/LEMP/Images/todo_list_php.png)
+[PHP Served page for a Todo-list](./Images/todo_list_php.png)
 
 That means your PHP environment is ready to connect and interact with the MySQL server.
 
