@@ -461,4 +461,4 @@ To connect and see the content on a the internet, we need to open TCP port 3300 
 - Now we can access our Book Register web application from the internet with a browser using Public IP address or Public DNS name.
 - This is the content of the Web Book Register Application using a browser with information entered. Check the screenshot
 
-![Book List Screenshot](/cohort_devops/MEAN_karo/Images/books_apps.png)
+![Book List Screenshot](./Images/books_apps.png)
